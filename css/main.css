@@ -1,0 +1,337 @@
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    grid-template-areas:
+     "nav nav nav"                  
+     "cuerpo cuerpo cuerpo"                                  
+     "foot foot foot";
+    grid-template-rows: 0,25fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* inicio header */
+.header{
+    background-color: #AD2E24;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f8f8f8;
+    border-bottom: 03px solid #FCA311;
+    grid-area: nav;
+}
+.header__title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:40px;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.header__nav ul li{
+    padding: 0px 5px 4px 5px;  
+}
+
+.header__nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px 15px 5px 15px;
+    color: #020202;
+    background-color: #FCA311;
+    border-radius: 10px;
+}
+.header__nav ul li a:hover{
+    color: #020202;
+    background-color: #F9D423;
+}
+
+/* inicio footer */
+
+.footer{
+    grid-area: foot;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-text-stroke: 0,5px black;
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-82730.jpg?w=1380&t=st=1659477843~exp=1659478443~hmac=b5fc54e3b8d9101913f141b20404bd2438c934d2a48af40b35001e655bc38989");
+    background-repeat: repeat;
+    color: #fff;
+    padding: 30px;
+    
+}
+.footer1{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.footer1 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.footer2{
+    display: inline-flex;
+    flex-direction: row;
+}
+.footer2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 300px;
+    
+}
+
+
+/* inicio index main  */
+
+
+.main__index{
+    display: grid;
+    grid-template-areas:
+    "sec1 sec1 sec2"                 
+    "sec3 sec3 sec3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-area: cuerpo;
+}
+.main__section1{
+    grid-area: sec1;
+}
+
+
+.main__section1 img{
+    border-radius: 8px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+}
+.main__section2{
+    grid-area: sec2;
+    display: flex;
+}
+.main__section2 p{
+    font-size: 25px;
+    color: #020202;
+    background-color: #FFD732;
+    padding: 10px;
+    border-radius: 8px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+
+}
+
+.main__section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: sec3;
+
+}
+.main__section3 h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    background-color: #FFD732;
+    color: rgb(3, 3, 3);
+    border-radius: 20px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+}
+.main__section3 iframe{
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+/* Inicio main contacto */
+
+.main__contacto{
+    grid-area: cuerpo;
+}
+
+.form{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #F9D423;
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 20px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+    margin-top: 30px;
+    margin-bottom: 39px;
+}
+.form__fieldset{
+    border: #AD2E24 solid 3px;
+    border-radius: 20px;
+}
+
+.form button{
+    font-size: 20px;
+}
+
+.form__fieldset h1{
+    color: #020202;
+    font-size: 35px;
+    padding: 05px;
+    
+}
+.form__fieldset input{
+    font-size: 25px;
+    width: 500px;
+}
+.form__fieldset label{
+    font-size: 30px;
+    padding: 05px;
+}
+.form__fieldset textarea{
+    font-size: 25px;
+    width: 500px;
+}
+.form__terminos{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Inicio Galería main */
+
+.main__galeria{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "img01 img02";
+    grid-area: cuerpo;
+}
+
+.galeria__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #F9D423;
+    padding: 10px;
+    border-radius: 20px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+    margin: 20px 10px 20px 10px;
+    grid-area: titulo;
+
+}
+.galeria__img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 20px 20px 20px 20px;
+    grid-area: img01;
+
+}
+.galeria__img1 img{
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+}
+.galeria__img2{
+    grid-area: img02;
+    display: flex;
+}
+.galeria__img2 img{
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+}
+
+/* Main nuestras marcas */
+
+.main__marcas{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: cuerpo;
+    padding: 20px;
+}
+
+.main__marcas h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #F9D423;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+
+}
+
+.main__marcas ul li img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+/* Media Query Mobile */
+
+ @media  screen and (max-width: 768px){
+        .header__nav{
+            display: grid;
+            grid-template-areas: 
+            "titulo logo"
+            "nav1 nav1";
+
+        }
+        .header__nav_01{
+            grid-area: titulo;
+
+        }
+        .header__nav0_02{
+            grid-area: logo;
+        }
+        .header__nav_03{
+            grid-area: nav1;
+        }
+        .header__nav ul li{
+            padding: 0px;
+        }
+        .main__index{
+            display: grid;
+            grid-template-areas:
+            "sec1 sec1"
+            "sec2 sec2"                 
+            "sec3 sec3";
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .main__galeria{
+            display: grid;
+            grid-template-areas: 
+            "titulo"
+            "img01"
+            "img02";
+        }
+    }
