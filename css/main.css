@@ -30,7 +30,11 @@ body{
     align-items: center;
     width: 65px;
     height: 65px;
+    animation-name: ruedita;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
 }
+
 .header__nav{
     display: flex;
     align-items: center;
@@ -52,19 +56,21 @@ body{
     color: #020202;
     background-color: #FCA311;
     border-radius: 10px;
+    transition: all 0.4s;
 }
 .header__nav ul li a:hover{
     color: #020202;
     background-color: #F9D423;
+    font-size: 28px;
 }
 
 /* inicio footer */
-
+/* url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-82730.jpg?w=1380&t=st=1659477843~exp=1659478443~hmac=b5fc54e3b8d9101913f141b20404bd2438c934d2a48af40b35001e655bc38989") */
 .footer{
     grid-area: foot;
     font-family: 'Nunito Sans', sans-serif;
     -webkit-text-stroke: 0,5px black;
-    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-82730.jpg?w=1380&t=st=1659477843~exp=1659478443~hmac=b5fc54e3b8d9101913f141b20404bd2438c934d2a48af40b35001e655bc38989");
+    background-image: linear-gradient(to bottom, #5F5F5F, #C6C6C6 );
     background-repeat: repeat;
     color: #fff;
     padding: 30px;
@@ -254,15 +260,26 @@ body{
     height: 500px;
     width: 600px;
     padding: 20px;
+    margin-left: 30px;
+    transition: all 0.7s;
 }
 .galeria__img2{
     grid-area: img02;
     display: flex;
+    transition: all 0.7s;
 }
 .galeria__img2 img{
     height: 500px;
     width: 600px;
     padding: 20px;
+}
+.galeria__img1 img:hover{
+    height: 600px;
+    width: 700px;
+}
+.galeria__img2 img:hover{
+    height: 600px;
+    width: 700px;
 }
 
 /* Main nuestras marcas */
@@ -293,6 +310,12 @@ body{
     width: 300px;
     height: 300px;
     padding: 20px;
+    transition: all 0.75s;
+}
+.main__marcas ul li img:hover{
+    width: 400px;
+    height: 400px;
+
 }
 
 /* Media Query Mobile */
@@ -335,3 +358,20 @@ body{
             "img02";
         }
     }
+
+@keyframes ruedita {
+
+    0%{
+
+    }
+    33%{
+        transform: translateX(100px) rotate(180deg);
+    }
+    66%{
+        transform: translateX(-100px) rotate(-180deg);
+    }
+    100%{
+        
+    }
+    
+} 
