@@ -1,13 +1,7 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    display: grid;
-    grid-template-areas:
-     "nav nav nav"                  
-     "cuerpo cuerpo cuerpo"                                  
-     "foot foot foot";
-    grid-template-rows: 0,25fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 /* inicio header */
@@ -105,17 +99,9 @@ body{
 
 
 .main__index{
-    display: grid;
-    grid-template-areas:
-    "sec1 sec1 sec2"                 
-    "sec3 sec3 sec3";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 20px;
     grid-area: cuerpo;
 }
 .main__section1{
-    grid-area: sec1;
 }
 
 
@@ -127,8 +113,7 @@ body{
     border-right:#F9D423 solid 3px;
 }
 .main__section2{
-    grid-area: sec2;
-    display: flex;
+
 }
 .main__section2 p{
     font-size: 25px;
@@ -225,12 +210,9 @@ body{
 
 /* Inicio Galería main */
 
-.main__galeria{
-    display: grid;
-    grid-template-areas: 
-    "titulo titulo"
-    "img01 img02";
+.main__galerias{
     grid-area: cuerpo;
+    padding: 20px;
 }
 
 .galeria__titulo{
@@ -358,6 +340,7 @@ body{
             "img02";
         }
     }
+    
 
 @keyframes ruedita {
 
