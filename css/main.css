@@ -101,8 +101,7 @@ body{
 .main__index{
     grid-area: cuerpo;
 }
-.main__section1{
-}
+
 
 
 .main__section1 img{
@@ -112,9 +111,7 @@ body{
     border-left: #F9D423 solid 3px;
     border-right:#F9D423 solid 3px;
 }
-.main__section2{
 
-}
 .main__section2 p{
     font-size: 25px;
     color: #020202;
