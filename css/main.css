@@ -268,10 +268,6 @@ body{
 /* Main nuestras marcas */
 
 .main__marcas{
-    display:inline-flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: cuerpo;
     padding: 20px;
 }
 
@@ -289,17 +285,7 @@ body{
 
 }
 
-.main__marcas ul li img{
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    transition: all 0.75s;
-}
-.main__marcas ul li img:hover{
-    width: 400px;
-    height: 400px;
 
-}
 /* about us main */
 
 .main__aboutus p{
