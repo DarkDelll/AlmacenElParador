@@ -300,6 +300,23 @@ body{
     height: 400px;
 
 }
+/* about us main */
+
+.main__aboutus p{
+    font-size: 30px;
+    background-color: #F9D423;
+    padding: 30px;
+    border-radius: 50px;
+    border-top: #AD2E24 solid 3px;
+    border-bottom: #AD2E24 solid 3px;
+    border-left: #F9D423 solid 3px;
+    border-right:#F9D423 solid 3px;
+     
+}
+.main__aboutus img{
+    padding: 30px;
+}
+
 
 /* Media Query Mobile */
 
