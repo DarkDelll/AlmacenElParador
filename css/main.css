@@ -191,6 +191,8 @@ body{
 .form__fieldset input{
     font-size: 25px;
     width: 500px;
+    background-color: white;
+    width: auto;
 }
 .form__fieldset label{
     font-size: 30px;
@@ -199,6 +201,8 @@ body{
 .form__fieldset textarea{
     font-size: 25px;
     width: 500px;
+    background-color: white;
+    width: auto;
 }
 .form__terminos{
     font-size: 20px;
