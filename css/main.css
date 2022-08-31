@@ -271,8 +271,8 @@ body{
 .main__marcas{
     display: flex;
     flex-direction: column;
-    
 
+    
 }
 
 .main__marcas h2{
