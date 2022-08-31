@@ -59,7 +59,6 @@ body{
 }
 
 /* inicio footer */
-/* url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-82730.jpg?w=1380&t=st=1659477843~exp=1659478443~hmac=b5fc54e3b8d9101913f141b20404bd2438c934d2a48af40b35001e655bc38989") */
 .footer{
     grid-area: foot;
     font-family: 'Nunito Sans', sans-serif;
@@ -98,25 +97,20 @@ body{
 /* inicio index main  */
 
 
-.main__index{
-    grid-area: cuerpo;
-}
-
-
-
 .main__section1 img{
     border-radius: 8px;
     border-top: #AD2E24 solid 3px;
     border-bottom: #AD2E24 solid 3px;
     border-left: #F9D423 solid 3px;
     border-right:#F9D423 solid 3px;
+    
 }
 
 .main__section2 p{
     font-size: 25px;
     color: #020202;
     background-color: #FFD732;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     border-top: #AD2E24 solid 3px;
     border-bottom: #AD2E24 solid 3px;
