@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        list-style-type: none;
+        li{
+            padding: 0px 5px 4px 5px;
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                padding: 4px 15px 5px 15px;
+                color: #020202;
+                background-color: $secondarycolor;
+                border-radius: 10px;
+                transition: all 0.4s;
+                &:hover{
+                    color: #020202;
+                    background-color: $hovercolor;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}

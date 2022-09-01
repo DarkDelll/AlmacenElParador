@@ -1,0 +1,21 @@
+.header{
+    background-color: $maincolor;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: $fontcolor;
+    border-bottom: $border2;
+}
+.header__title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:40px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    animation-name: ruedita;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
