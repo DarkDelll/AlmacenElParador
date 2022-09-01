@@ -127,4 +127,22 @@ footer {
   margin-left: 40px;
   width: 700px;
   height: 400px;
+}
+
+@-webkit-keyframes ruedita {
+  33% {
+    transform: translateX(100px) rotate(180deg);
+  }
+  66% {
+    transform: translateX(-100px) rotate(-180deg);
+  }
+}
+
+@keyframes ruedita {
+  33% {
+    transform: translateX(100px) rotate(180deg);
+  }
+  66% {
+    transform: translateX(-100px) rotate(-180deg);
+  }
 }/*# sourceMappingURL=styles.css.map */

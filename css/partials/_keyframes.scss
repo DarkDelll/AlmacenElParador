@@ -1,0 +1,16 @@
+@keyframes ruedita {
+
+    0%{
+
+    }
+    33%{
+        transform: translateX(100px) rotate(180deg);
+    }
+    66%{
+        transform: translateX(-100px) rotate(-180deg);
+    }
+    100%{
+        
+    }
+    
+} 
