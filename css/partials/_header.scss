@@ -11,7 +11,7 @@
     font-size:40px;
 }
 .header__logo{
-    display: flex;
+    @include DisplayFlex(row);
     align-items: center;
     width: 65px;
     height: 65px;

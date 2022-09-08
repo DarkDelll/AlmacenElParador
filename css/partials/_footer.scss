@@ -8,8 +8,7 @@ footer{
 }
 
 .footer1{
-    display: inline-flex;
-    flex-direction: row;
+    @include DisplayinFlex(row);
     ul{
         li{
             text-decoration: none;
@@ -20,8 +19,7 @@ footer{
     }
 }
 .footer2{
-    display: inline-flex;
-    flex-direction: row;
+    @include DisplayinFlex(row);
     ul{
         li{
             text-decoration: none;

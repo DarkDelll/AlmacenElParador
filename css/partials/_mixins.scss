@@ -1,0 +1,8 @@
+@mixin DisplayFlex ($flexdir){
+    display: flex;
+    flex-direction: $flexdir;
+}
+@mixin DisplayinFlex ($flexdr){
+    display: inline-flex;
+    flex-direction: $flexdr;
+}

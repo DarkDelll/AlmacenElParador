@@ -1,9 +1,9 @@
 nav{
-    display: flex;
+    @include DisplayFlex(row);
     align-items: center;
     justify-content: space-between;
     ul{
-        display: flex;
+        @include DisplayFlex(row);
         list-style-type: none;
         li{
             padding: 0px 5px 4px 5px;

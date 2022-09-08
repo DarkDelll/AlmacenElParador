@@ -28,6 +28,7 @@
 
 .header__logo {
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 65px;
   height: 65px;
@@ -41,11 +42,13 @@
 
 nav {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 nav ul {
   display: flex;
+  flex-direction: row;
   list-style-type: none;
 }
 nav ul li {
