@@ -1,0 +1,12 @@
+%BorderStyle1 {
+    border-top: map-get($borders, border1);
+    border-right: map-get($borders, border2);
+    border-bottom: map-get($borders, border1);
+    border-left: map-get($borders, border2);
+}
+%BorderStyle2 {
+    border-top: map-get($borders, border3);
+    border-right: map-get($borders, border4);
+    border-bottom: map-get($borders, border3);
+    border-left: map-get($borders, border4);
+}

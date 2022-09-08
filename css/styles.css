@@ -1,3 +1,17 @@
+.main__section3 h3, .main__section2 p, .main__section1 img {
+  border-top: #AD2E24 solid 3px;
+  border-right: #FCA311 solid 3px;
+  border-bottom: #AD2E24 solid 3px;
+  border-left: #FCA311 solid 3px;
+}
+
+.main__section3 iframe {
+  border-top: #AD2E24 solid 5px;
+  border-right: #FCA311 solid 5px;
+  border-bottom: #AD2E24 solid 5px;
+  border-left: #FCA311 solid 5px;
+}
+
 .header {
   background-color: #AD2E24;
   padding: 15px;
@@ -86,10 +100,6 @@ footer {
 
 .main__section1 img {
   border-radius: 8px;
-  border-top: #AD2E24 solid 3px;
-  border-right: #FCA311 solid 3px;
-  border-bottom: #AD2E24 solid 3px;
-  border-left: #FCA311 solid 3px;
 }
 
 .main__section2 p {
@@ -99,10 +109,6 @@ footer {
   background-color: #FFD732;
   color: rgb(3, 3, 3);
   border-radius: 8px;
-  border-top: #AD2E24 solid 3px;
-  border-right: #FCA311 solid 3px;
-  border-bottom: #AD2E24 solid 3px;
-  border-left: #FCA311 solid 3px;
 }
 
 .main__section3 {
@@ -117,10 +123,6 @@ footer {
   background-color: #FFD732;
   color: rgb(3, 3, 3);
   border-radius: 20px;
-  border-top: #AD2E24 solid 3px;
-  border-right: #FCA311 solid 3px;
-  border-bottom: #AD2E24 solid 3px;
-  border-left: #FCA311 solid 3px;
 }
 .main__section3 iframe {
   padding: 10px;

@@ -3,7 +3,7 @@
     padding: 15px;
     font-family: 'Nunito Sans', sans-serif;
     color: $fontcolor;
-    border-bottom: $border2;
+    border-bottom: map-get($borders, border2);
 }
 .header__title{
     text-align: center;

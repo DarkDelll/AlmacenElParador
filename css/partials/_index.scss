@@ -1,10 +1,7 @@
 .main__section1{
     img{
         border-radius: 8px;
-        border-top: $border1;
-        border-right: $border2;
-        border-bottom: $border1;
-        border-left: $border2;
+        @extend %BorderStyle1;
     }
 }
 .main__section2{
@@ -15,10 +12,7 @@
         background-color: $backcolor;
         color: $blackfont;
         border-radius: 8px;
-        border-top: $border1;
-        border-right: $border2;
-        border-bottom: $border1;
-        border-left: $border2; 
+        @extend %BorderStyle1;
     }
 }
 .main__section3{
@@ -32,15 +26,13 @@
         background-color: $backcolor;
         color: rgb(3, 3, 3);
         border-radius: 20px;
-        border-top: $border1;
-        border-right: $border2;
-        border-bottom: $border1;
-        border-left: $border2;
+        @extend %BorderStyle1;
     }
     iframe{
         padding: 10px;
         margin-left: 40px;
         width: 700px;
-        height: 400px;
+        height: 400px; 
+        @extend %BorderStyle2; 
     }
 }
