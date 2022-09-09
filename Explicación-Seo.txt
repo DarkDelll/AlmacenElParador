@@ -1,0 +1,9 @@
+ 
+ Para SEO  lo que hice fue:
+ 
+ * Agregar etiqueta Meta description en el index con una descripción llamativa de la organización "¡Bienvenido!, Almacén El Parador Ofertas todos los dias al precio más bajo del mercado".
+ * Agregar descripción distinta en cada una de las páginas según la sección en específico.
+ * Modificar el title de cada página Index, contacto, galeria, aboutus, marcas.
+ * Agregué etiqueta keywords con palabras claves según el sector objetivo "content="ALMACEN, EL PARADOR, VERDURAS, FRUTAS, CARNE, POLLO, PAGOS, RECARGAS, MINIMARKET"".
+ * Comenzar con un h1 en el header y luego aplicar otras etiquetas H en el cuerpo de la página
+ * Agregué la descripción a cada imagen que está en la páginas.
