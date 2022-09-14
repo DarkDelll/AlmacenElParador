@@ -1,11 +1,11 @@
-.main__marcas h2, .galeria__titulo, .main__aboutus p, .main__section3 h3, .main__section2 p, .main__section1 img {
+.main__marcas h2, .galeria__titulo, .form button, .main__aboutus p, .main__section3 h3, .main__section2 p, .main__section1 img {
   border-top: #AD2E24 solid 3px;
   border-right: #FCA311 solid 3px;
   border-bottom: #AD2E24 solid 3px;
   border-left: #FCA311 solid 3px;
 }
 
-.form, .main__section3 iframe {
+.contacto__div p, .form, .main__section3 iframe {
   border-top: #AD2E24 solid 5px;
   border-right: #FCA311 solid 5px;
   border-bottom: #AD2E24 solid 5px;
@@ -186,8 +186,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-content: center;
-  background-color: #FCA311;
-  width: 500px;
+  background-color: #FFB051;
   padding: 25px;
   margin: auto;
   border-radius: 20px;
@@ -195,8 +194,16 @@ footer {
   margin-bottom: 39px;
   box-shadow: 2px 2px 2px 2px black;
 }
+.form button {
+  background-color: #AD2E24;
+  color: #f8f8f8;
+  border-radius: 20px;
+  width: auto;
+}
 
 .form__fieldset {
+  display: flex;
+  flex-direction: column;
   border: #AD2E24 solid 3px;
   border-radius: 20px;
 }
@@ -207,7 +214,6 @@ footer {
 }
 .form__fieldset input {
   font-size: 25px;
-  width: 500px;
   background-color: #f8f8f8;
   width: auto;
 }
@@ -223,7 +229,25 @@ footer {
 }
 
 .form__terminos {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
   font-size: 20px;
+  padding: 15px;
+}
+
+.contacto__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contacto__div p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
   padding: 10px;
 }
 
@@ -254,6 +278,10 @@ footer {
   border-radius: 20px;
   margin: 20px 10px 20px 10px;
 }
+.main__marcas img {
+  width: 600px;
+  height: 600px;
+}
 
 .carruselmarcas {
   padding: 30px;
@@ -271,5 +299,24 @@ footer {
   }
   .about__img2 {
     display: none;
+  }
+  .contacto__div {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 24px;
+  }
+  .header__logo {
+    display: none;
+  }
+  .main__section3 iframe {
+    margin-left: 0px;
+    width: 85%;
+  }
+  .main__marcas img {
+    width: 300px;
+    height: 300px;
   }
 }/*# sourceMappingURL=styles.css.map */

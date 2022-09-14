@@ -1,8 +1,7 @@
 .form{
     @include DisplayFlex(column);
     align-content: center;
-    background-color: $secondarycolor;
-    width: 500px;
+    background-color: $formcolor;
     padding: 25px;
     margin: auto;
     border-radius: 20px;
@@ -10,8 +9,16 @@
     margin-top: 30px;
     margin-bottom: 39px;
     box-shadow: 2px 2px 2px 2px black;
+    button{
+        background-color: $maincolor;
+        color: $fontcolor;
+        border-radius: 20px;
+        @extend %BorderStyle1;
+        width: auto;
+    }
 }
 .form__fieldset{
+    @include DisplayFlex(column);
     border: $maincolor solid 3px;
     border-radius: 20px;
     h2{
@@ -21,7 +28,6 @@
     }
     input{
         font-size: 25px;
-        width: 500px;
         background-color: $fontcolor;
         width: auto;
     }
@@ -38,6 +44,22 @@
    
 }
 .form__terminos{
+    @include DisplayFlex(row);
+    justify-items: flex-start;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    
+}
+.contacto__div{
+    @include DisplayFlex(column);
+    justify-content: center;
+    p{
+        @include DisplayFlex(row);
+        flex-wrap: wrap;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        @extend %BorderStyle2;
+    }
 }

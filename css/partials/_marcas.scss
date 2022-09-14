@@ -8,6 +8,10 @@
         margin: 20px 10px 20px 10px;
         @extend %BorderStyle1;
     }
+    img{
+        width: 600px;
+        height: 600px;
+    }
 }
 .carruselmarcas{
     padding: 30px;
