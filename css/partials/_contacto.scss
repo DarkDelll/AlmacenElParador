@@ -1,0 +1,43 @@
+.form{
+    @include DisplayFlex(column);
+    align-content: center;
+    background-color: $secondarycolor;
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 20px;
+    @extend %BorderStyle2;
+    margin-top: 30px;
+    margin-bottom: 39px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.form__fieldset{
+    border: $maincolor solid 3px;
+    border-radius: 20px;
+    h2{
+        color: $blackfont;
+        font-size: 35px;
+        padding: 05px;
+    }
+    input{
+        font-size: 25px;
+        width: 500px;
+        background-color: $fontcolor;
+        width: auto;
+    }
+    label{
+        font-size: 30px;
+        padding: 05px;
+    }
+    textarea{
+        font-size: 25px;
+        width: 500px;
+        background-color: $fontcolor;
+        width: auto;
+    }
+   
+}
+.form__terminos{
+    font-size: 20px;
+    padding: 10px;
+}

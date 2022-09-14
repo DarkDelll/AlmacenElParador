@@ -1,9 +1,8 @@
-nav{
+.header__nav{
     @include DisplayFlex(row);
     align-items: center;
     justify-content: space-between;
     ul{
-        @include DisplayFlex(row);
         list-style-type: none;
         li{
             padding: 0px 5px 4px 5px;
@@ -23,4 +22,7 @@ nav{
             }
         }
     }
+}
+.togbut{
+    background-color: $secondarycolor;
 }

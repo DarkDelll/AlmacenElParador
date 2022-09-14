@@ -1,0 +1,15 @@
+.galeria__titulo{
+    @include DisplayFlex(row);
+    justify-content: center;
+    font-size: 30px;
+    background-color: $secondarycolor;
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+    border-radius: 20px;
+    @extend %BorderStyle1;
+
+}
+.img1{
+    height: 900px;
+    width: 600px;
+}

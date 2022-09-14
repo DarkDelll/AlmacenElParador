@@ -1,0 +1,13 @@
+.main__aboutus{
+    p{
+        font-size: 30px;
+        background-color: $secondarycolor;
+        padding: 30px;
+        border-radius: 50px;
+        margin-top: 50px;
+        @extend %BorderStyle1;
+    }
+    img{
+        padding: 30px;
+    }
+}
