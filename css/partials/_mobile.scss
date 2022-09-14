@@ -1,0 +1,14 @@
+@media screen and (max-width: 990px){
+
+    .main__mobile{
+        @include DisplayFlex(column);
+    }
+    .index__col{
+        width: 100%;
+    }
+
+    .about__img2{
+        display: none;
+    }
+
+}
