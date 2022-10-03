@@ -180,6 +180,14 @@ footer {
 }
 .main__aboutus img {
   padding: 30px;
+  margin-top: 50px;
+  width: auto;
+  border-radius: 10%;
+}
+
+.about__img2 {
+  width: 500px;
+  height: 500px;
 }
 
 .form {
